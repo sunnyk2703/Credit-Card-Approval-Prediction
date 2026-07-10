@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Data (too large / sensitive for git)
+Dataset/*.csv
+
+# Model artifacts (generated, not tracked)
+Flask/model/*.pkl
+Flask/model/*.png
+Flask/model/*.csv
+
+# Flask
+instance/
+.flaskenv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
